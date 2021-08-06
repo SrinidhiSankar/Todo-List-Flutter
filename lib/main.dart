@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
         itemCount: todos.length,
         itemBuilder: (
           BuildContext context, int index){
-            return Dismissible(
+            return Container(
               key: UniqueKey(), child: Card(
                 elevation: 10,
                 margin: EdgeInsets.all(8),
